@@ -1026,6 +1026,9 @@ h1 {
   width: 6px;
   height: 6px; }
 
+.prices__link:hover {
+  color: #b5b6bc; }
+
 @media (max-width: 767.98px) {
   .footer {
     box-sizing: border-box;
@@ -1118,7 +1121,6 @@ body {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  padding: 18px 24px 32px 24px;
   width: 320px;
   min-height: 100vh;
   background-color: white;
@@ -1139,6 +1141,7 @@ body {
       box-shadow: -15px 0 50px 0 black; } }
   @media (min-width: 1440px) {
     .menu {
+      padding: 18px 24px 32px 24px;
       position: relative;
       grid-row-start: 1;
       grid-row-end: 6;
@@ -1149,6 +1152,7 @@ body {
   height: 100%; }
   @media (max-width: 1439.98px) {
     .scroll {
+      padding: 18px 24px 32px 24px;
       overflow: scroll; } }
 
 .scroll::-webkit-scrollbar {
